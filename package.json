@@ -1,0 +1,35 @@
+{
+  "name": "dvp-twitterreciver",
+  "version": "1.0.0",
+  "description": "Twitter activity listener for tweets and direct messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuoSoftware/DVP-TwitterReciver.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuoSoftware/DVP-TwitterReciver/issues"
+  },
+  "homepage": "https://github.com/DuoSoftware/DVP-TwitterReciver#readme",
+  "dependencies": {
+    "amqp": "^0.2.7",
+    "async": "^2.6.1",
+    "config": "^3.0.1",
+    "dvp-common": "^1.5.2",
+    "dvp-common-lite": "^1.0.1",
+    "dvp-mongomodels": "^5.2.5",
+    "jsonwebtoken": "^8.4.0",
+    "request": "^2.88.0",
+    "restify": "^7.3.0",
+    "restify-cors-middleware": "^1.1.1",
+    "restify-jwt": "^0.4.0",
+    "stringformat": "0.0.5",
+    "twitter": "^1.7.1",
+    "validator": "^10.10.0"
+  }
+}
