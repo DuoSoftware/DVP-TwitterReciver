@@ -90,6 +90,10 @@ module.exports = {
         "ardsServicePort": "SYS_ARDSLITESERVICE_PORT",
         "ardsServiceVersion": "SYS_ARDSLITESERVICE_VERSION",
 
+        "mesengerhost": "SYS_EXT_MESSENGER_HOST",//ardsliteservice.app.veery.cloud
+        "messengerport": "SYS_EXT_MESSENGER_PORT",
+        "messengerversion": "SYS_EXT_MESSENGER_VERSION",
+
     },
 
     "TwitterConnector": {

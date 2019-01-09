@@ -106,7 +106,12 @@ module.exports = {
 
         "fileServiceHost": "",
         "fileServicePort": 5645,
-        "fileServiceVersion": "1.0.0.0"
+        "fileServiceVersion": "1.0.0.0",
+
+        "messengerhost": "externalipmessagingservice.app1.veery.cloud",//ardsliteservice.app.veery.cloud
+        "messengerport": "3334",
+        "messengerversion": "1.0.0.0",
+        //externalipmessagingservice.app.veery.cloud
 
     },
 

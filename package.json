@@ -24,6 +24,7 @@
     "dvp-common-lite": "^1.0.1",
     "dvp-mongomodels": "^5.2.5",
     "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
     "request": "^2.88.0",
     "restify": "^7.3.0",
     "restify-cors-middleware": "^1.1.1",
