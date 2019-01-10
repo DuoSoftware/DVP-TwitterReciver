@@ -6,7 +6,8 @@ const corsMiddleware = require('restify-cors-middleware');
 const secure= require('./secure');
 const tweets = require('./Actions/Twitter');
 const mongomodels = require('dvp-mongomodels');
-const twitter_amqp = require("./Actions/Twitter-amqp")
+const twitter_amqp = require("./Actions/Twitter-amqp");
+const logger = require('dvp-common/LogHandler/CommonLogHandler.js').logger;
 
 
 var port = config.Host.port || 3000;

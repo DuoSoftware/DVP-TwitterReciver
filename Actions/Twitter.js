@@ -84,7 +84,11 @@ function loadTweets(twittreid, tweets) {
                         ticketList.forEach(function (item) {
                             TicketTask.push(function createContact(callback) {
 
-                                CreateEngagement("twitter", company, tenant, item.user.screen_name, item.in_reply_to_screen_name, "inbound", item.id_str, item.text, undefined, item.user.id_str, item.user, function (isSuccess, result) {
+                                var to = item.in_reply_to_screen_name;
+                                if(!item.in_reply_to_screen_name)
+                                    to = item.user.screen_name
+
+                                CreateEngagement("twitter", company, tenant, item.user.screen_name, to, "inbound", item.id_str, item.text, undefined, item.user.id_str, item.user, function (isSuccess, result) {
                                     if (isSuccess) {
 
                                         CreateTicket("twitter", item.id_str, result.profile_id, company, tenant, ticket_type, item.text, item.text, ticket_priority, ticket_tags, function (done) {
